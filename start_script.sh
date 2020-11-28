@@ -11,5 +11,5 @@ server {
 EOF
 
 sudo cp ${var.project}.smartapphouses.com /etc/nginx/sites-available/
-sudo ln -s /etc/nginx/sites-available/${project}.ngrok.smartapphouses.com /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/${project}.smartapphouses.com /etc/nginx/sites-enabled/
 sudo certbot --nginx -d ${project}.smartapphouses.com --non-interactive --agree-tos -m alejandro.caral.ferro@gmail.com
